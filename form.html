@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+  </head>
+  <body>
+    <!--This center tag is used to take my header and other stuffs in the middle of the page-->
+    <center>
+      <header>
+        <h1>Fill the form...</h1>
+
+        <!-- form tag is used to create a form to collect input data -->
+        <form>
+          <div>
+            Name:<input type="text" name="name" placeholder="Enter your name" />
+            <br />
+            Email:<input
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+            <br />
+            Password:<input type="password" placeholder="Enter your Password" />
+            <br />
+          </div>
+
+          <!-- strong is used for gender to make bold -->
+          <strong>
+            <h3>Gender:</h3>
+          </strong>
+          <input type="radio" name="Gender" value="Male" />Male
+          <input type="radio" name="Gender" value="Female" />Female
+
+          <!-- h3 tag is used to select language -->
+          <h3>Select any Language:</h3>
+          <input type="checkbox" name="subject" value="English" />English
+          <br />
+          <input type="checkbox" name="subject" value="Spanish" />Spanish
+          <br />
+          <input type="checkbox" name="subject" value="Arabic" />Arabic
+          <br />
+
+          <!-- h3 tag is used to select the subject -->
+          <h3>Select the subject:</h3>
+          <select id="language-select" name="language">
+            <option value="Default">Default</option>
+            <option value="Python">Python</option>
+            <option value="HTML">HTML</option>
+            <option value="Java script">Java Script</option>
+          </select>
+          <br />
+          <br />
+
+          <!-- submit button is used to submit input data-->
+          <button>Submit</button>
+        </form>
+      </header>
+      <br />
+
+      <!-- anchor tag is used to go back to main page -->
+      <a href="./index.html">Back to Main Page</a>
+    </center>
+  </body>
+</html>
